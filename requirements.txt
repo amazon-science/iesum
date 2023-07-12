@@ -1,4 +1,4 @@
-torch==1.12.1+cu113
+torch==1.13.1
 transformers==4.22.2
 tensorboard==2.10.1
 scipy==1.9.1
