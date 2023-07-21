@@ -24,7 +24,7 @@ pip install dgl-cu113 dglgo -f https://data.dgl.ai/wheels/repo.html
 ```
 
 ### Data Preparation
-In this project, we perform experiments on two public datasets [Multi-News](https://github.com/Alex-Fabbri/Multi-News) and [WCEP](https://github.com/complementizer/wcep-mds-dataset) and one dataset [DUC-2004](https://duc.nist.gov/duc2004/) that requires licenses. 
+In this project, we perform experiments on three datasets [Multi-News](https://github.com/Alex-Fabbri/Multi-News), [WCEP](https://github.com/complementizer/wcep-mds-dataset) and [DUC-2004](https://duc.nist.gov/duc2004/). 
 #### Running Information Extraction (IE) models to obtain the graphs.
 In this project, we need to run IE systems prior to model training to first get the graphs for each document cluster. We first use [RefinED](https://github.com/amazon-science/ReFinED) to extract entities in each cluster and then use [RESIN-11](https://github.com/RESIN-KAIROS/RESIN-11) to extract events. Please make sure that the original data and the IE results are processed into the following `json` format:
 ```
