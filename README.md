@@ -73,7 +73,6 @@ where each training example has four dict keys:
 + `summary`: the reference summary
 + `nodes`: a `dict` where each `key` is the string ID of an IE node, and each value contains `type` and `spans` of the node. Each `span` is a 3-tuple that represents `[document_id, start_offset, end_offset]`.
 
-We provide samples of data in the `data/sample` folder of this repo.
 
 ### Running Examples
 We provide two bash scripts `train_multinews.sh` and `train_wcep.sh` for training and testing models on `MultiNews` and `WCEP` respectively. To train the model and reproduce the results, just run:
